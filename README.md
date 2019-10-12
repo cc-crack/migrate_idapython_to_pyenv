@@ -1,4 +1,4 @@
-# Migragte idapython to pyenv
+# Migrate idapython to pyenv
 
 1. Install pyenv
 
