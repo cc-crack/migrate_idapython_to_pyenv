@@ -52,7 +52,7 @@
    Usage:
 
    ```zsh
-   ╰─○ python2 ./patchall.py 
+   ╰─○ python2 ./patchall.py
    usage: patchall.py [-h] [-o OLD_LIB] [-n NEW_LIB]
 
     IDA pro python env patcher.
