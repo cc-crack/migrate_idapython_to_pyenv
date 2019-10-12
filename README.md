@@ -1,4 +1,4 @@
-# Migragte idapython to pyenv
+# Migrate idapython to pyenv
 
 1. Install pyenv
 
@@ -65,7 +65,7 @@
                           New Path to the python.dylib
     ```
 
-    For patching the default ida python lib path
+    For patching the default IDA python lib path
 
     ```zsh
     python2 ./patchall.py -n ~/.pyenv/versions/2.7.16/envs/idapython2716/libpython2.7.dylib
@@ -75,7 +75,7 @@
 
 5. Finally result
 
-   So you can build a folder for your ida script easily and active the python enviroment.
+   So you can build a folder for your IDA script easily and active the python enviroment.
 
    ```zsh
    mkdir ~/idascript2716/
@@ -97,7 +97,7 @@
     idapythonenv
    ```
 
-   After activing the target env you can free to pip install anything.
+   After activating the target env you can free to pip install anything.
 
    ```zsh
    pyenv activate idapython2716
@@ -118,7 +118,7 @@
     Successfully installed boto-2.49.0 z3-0.2.0
    ```
 
-   Open ida and exectute python script
+   Open IDA and execute something
 
    ```python
     Python>sys.version
