@@ -17,7 +17,7 @@
 2. Install python
 
     The default configure of pyenv installation will not compile dylib, so we have to change it by prefixing
-    `env PYTHON_CONFIGURE_OPTS="--enable-shared CC=clang" ` to `pyenv install` command.
+    `env PYTHON_CONFIGURE_OPTS="--enable-shared CC=clang"`  to `pyenv install` command.
 
     Install python 2.7.16
 
@@ -45,6 +45,10 @@
 
    Using ```patchall.py``` to patch all IDA modules.
 
+   Get it from
+
+   ```git clone https://github.com/cc-crack/migrate_idapython_to_pyenv```
+
    Usage:
 
    ```zsh
@@ -67,7 +71,7 @@
     python2 ./patchall.py -n ~/.pyenv/versions/2.7.16/envs/idapython2716/libpython2.7.dylib
     ```
 
-    ```pathcall.py``` depends on ```install_name_tool``` which is a part of xcode tools. If it is missing please install xcode.
+    ```pathcall.py``` depends on ```install_name_tool``` which is a part of Xcode tools. If it is missing please install Xcode.
 
 5. Finally result
 
